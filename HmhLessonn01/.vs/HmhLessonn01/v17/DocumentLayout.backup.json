@@ -1,0 +1,89 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\ph\u00E1t tri\u1EC3n wed c\u00F4ng ngh\u1EC7 ,net\\K24CNT2_NetCore\\HmhLessonn01\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6A3153DF-41B4-4B3C-AA21-8F2C7DFBFE12}|..\\HmhLesson01Mvc\\HmhLesson01Mvc.csproj|c:\\ph\u00E1t tri\u1EC3n wed c\u00F4ng ngh\u1EC7 ,net\\k24cnt2_netcore\\hmhlesson01mvc\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A3153DF-41B4-4B3C-AA21-8F2C7DFBFE12}|..\\HmhLesson01Mvc\\HmhLesson01Mvc.csproj|c:\\ph\u00E1t tri\u1EC3n wed c\u00F4ng ngh\u1EC7 ,net\\k24cnt2_netcore\\hmhlesson01mvc\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A3153DF-41B4-4B3C-AA21-8F2C7DFBFE12}|..\\HmhLesson01Mvc\\HmhLesson01Mvc.csproj|c:\\ph\u00E1t tri\u1EC3n wed c\u00F4ng ngh\u1EC7 ,net\\k24cnt2_netcore\\hmhlesson01mvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69EF9A15-E0E1-4148-B900-E1BAB0233AB3}|HmhLessonn01.csproj|c:\\ph\u00E1t tri\u1EC3n wed c\u00F4ng ngh\u1EC7 ,net\\k24cnt2_netcore\\hmhlessonn01\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{69EF9A15-E0E1-4148-B900-E1BAB0233AB3}|HmhLessonn01.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\ph\u00E1t tri\u1EC3n wed c\u00F4ng ngh\u1EC7 ,net\\K24CNT2_NetCore\\HmhLesson01Mvc\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "..\\HmhLesson01Mvc\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\ph\u00E1t tri\u1EC3n wed c\u00F4ng ngh\u1EC7 ,net\\K24CNT2_NetCore\\HmhLesson01Mvc\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "..\\HmhLesson01Mvc\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-19T08:58:45.06Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\ph\u00E1t tri\u1EC3n wed c\u00F4ng ngh\u1EC7 ,net\\K24CNT2_NetCore\\HmhLesson01Mvc\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "..\\HmhLesson01Mvc\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\ph\u00E1t tri\u1EC3n wed c\u00F4ng ngh\u1EC7 ,net\\K24CNT2_NetCore\\HmhLesson01Mvc\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "..\\HmhLesson01Mvc\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-19T08:57:11.496Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\ph\u00E1t tri\u1EC3n wed c\u00F4ng ngh\u1EC7 ,net\\K24CNT2_NetCore\\HmhLesson01Mvc\\Program.cs",
+              "RelativeDocumentMoniker": "..\\HmhLesson01Mvc\\Program.cs",
+              "ToolTip": "C:\\ph\u00E1t tri\u1EC3n wed c\u00F4ng ngh\u1EC7 ,net\\K24CNT2_NetCore\\HmhLesson01Mvc\\Program.cs",
+              "RelativeToolTip": "..\\HmhLesson01Mvc\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-19T08:54:51.834Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\ph\u00E1t tri\u1EC3n wed c\u00F4ng ngh\u1EC7 ,net\\K24CNT2_NetCore\\HmhLessonn01\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\ph\u00E1t tri\u1EC3n wed c\u00F4ng ngh\u1EC7 ,net\\K24CNT2_NetCore\\HmhLessonn01\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-19T08:50:08.546Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
