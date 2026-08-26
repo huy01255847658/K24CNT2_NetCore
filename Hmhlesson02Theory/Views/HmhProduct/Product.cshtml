@@ -1,0 +1,24 @@
+﻿@{
+    ViewData["Title"] = "Thông tin Sản phẩm";
+}
+<h1>@ViewData["Title"] </h1>
+
+@{
+    HmhProduct product = ViewData["Product"] as Hmhlesson02Theory.Models.HmhProduct;
+}
+
+<div class="alert alert-danger">
+    <h2>Dữ liệu lấy từ ViewData</h2>
+    <p>Mã Sản Phẩm:@product.ProductID </p>
+    <p>Tên Sản Phẩm: @product.ProductName </p>
+    <p>năm SX: @product.YearRelease</p>
+    <p>Giá: @product.Price</p>
+    </div>
+
+    <div class=" alert alert-info">
+        <h2>Dữ liệu lấy từ viewBaag</h2>
+        <p>Mã Sản Phẩm: @ViewBag.product.ProductID</p>
+        <p>Tên Sản Phẩm: @ViewBag.product.ProductName</p>
+        <p>năm SX: @ViewBag.product.YearRelease</p>
+        <p>Giá: @ViewBag.product.Price</p>
+    </div>

@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\ph\u00E1t tri\u1EC3n wed c\u00F4ng ngh\u1EC7 ,net\\K24CNT2_NetCore\\Hmhlesson02Theory\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C4B985BC-6D10-4216-8115-F342A2BDAA9F}|Hmhlesson02Theory.csproj|c:\\ph\u00E1t tri\u1EC3n wed c\u00F4ng ngh\u1EC7 ,net\\k24cnt2_netcore\\hmhlesson02theory\\views\\hmhproduct\\product.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C4B985BC-6D10-4216-8115-F342A2BDAA9F}|Hmhlesson02Theory.csproj|solutionrelative:views\\hmhproduct\\product.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4B985BC-6D10-4216-8115-F342A2BDAA9F}|Hmhlesson02Theory.csproj|c:\\ph\u00E1t tri\u1EC3n wed c\u00F4ng ngh\u1EC7 ,net\\k24cnt2_netcore\\hmhlesson02theory\\controllers\\hmhproductcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C4B985BC-6D10-4216-8115-F342A2BDAA9F}|Hmhlesson02Theory.csproj|solutionrelative:controllers\\hmhproductcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4B985BC-6D10-4216-8115-F342A2BDAA9F}|Hmhlesson02Theory.csproj|c:\\ph\u00E1t tri\u1EC3n wed c\u00F4ng ngh\u1EC7 ,net\\k24cnt2_netcore\\hmhlesson02theory\\models\\hmhproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C4B985BC-6D10-4216-8115-F342A2BDAA9F}|Hmhlesson02Theory.csproj|solutionrelative:models\\hmhproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4B985BC-6D10-4216-8115-F342A2BDAA9F}|Hmhlesson02Theory.csproj|c:\\ph\u00E1t tri\u1EC3n wed c\u00F4ng ngh\u1EC7 ,net\\k24cnt2_netcore\\hmhlesson02theory\\views\\hmhproduct\\hmhindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C4B985BC-6D10-4216-8115-F342A2BDAA9F}|Hmhlesson02Theory.csproj|solutionrelative:views\\hmhproduct\\hmhindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Product.cshtml",
+              "DocumentMoniker": "C:\\ph\u00E1t tri\u1EC3n wed c\u00F4ng ngh\u1EC7 ,net\\K24CNT2_NetCore\\Hmhlesson02Theory\\Views\\HmhProduct\\Product.cshtml",
+              "RelativeDocumentMoniker": "Views\\HmhProduct\\Product.cshtml",
+              "ToolTip": "C:\\ph\u00E1t tri\u1EC3n wed c\u00F4ng ngh\u1EC7 ,net\\K24CNT2_NetCore\\Hmhlesson02Theory\\Views\\HmhProduct\\Product.cshtml",
+              "RelativeToolTip": "Views\\HmhProduct\\Product.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-26T08:58:36.462Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HmhProductController.cs",
+              "DocumentMoniker": "C:\\ph\u00E1t tri\u1EC3n wed c\u00F4ng ngh\u1EC7 ,net\\K24CNT2_NetCore\\Hmhlesson02Theory\\Controllers\\HmhProductController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HmhProductController.cs",
+              "ToolTip": "C:\\ph\u00E1t tri\u1EC3n wed c\u00F4ng ngh\u1EC7 ,net\\K24CNT2_NetCore\\Hmhlesson02Theory\\Controllers\\HmhProductController.cs",
+              "RelativeToolTip": "Controllers\\HmhProductController.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAA1wB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-26T08:51:32.867Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HmhProduct.cs",
+              "DocumentMoniker": "C:\\ph\u00E1t tri\u1EC3n wed c\u00F4ng ngh\u1EC7 ,net\\K24CNT2_NetCore\\Hmhlesson02Theory\\Models\\HmhProduct.cs",
+              "RelativeDocumentMoniker": "Models\\HmhProduct.cs",
+              "ToolTip": "C:\\ph\u00E1t tri\u1EC3n wed c\u00F4ng ngh\u1EC7 ,net\\K24CNT2_NetCore\\Hmhlesson02Theory\\Models\\HmhProduct.cs",
+              "RelativeToolTip": "Models\\HmhProduct.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-26T08:49:07.828Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "HmhIndex.cshtml",
+              "DocumentMoniker": "C:\\ph\u00E1t tri\u1EC3n wed c\u00F4ng ngh\u1EC7 ,net\\K24CNT2_NetCore\\Hmhlesson02Theory\\Views\\HmhProduct\\HmhIndex.cshtml",
+              "RelativeDocumentMoniker": "Views\\HmhProduct\\HmhIndex.cshtml",
+              "ToolTip": "C:\\ph\u00E1t tri\u1EC3n wed c\u00F4ng ngh\u1EC7 ,net\\K24CNT2_NetCore\\Hmhlesson02Theory\\Views\\HmhProduct\\HmhIndex.cshtml",
+              "RelativeToolTip": "Views\\HmhProduct\\HmhIndex.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-26T08:12:44.754Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
