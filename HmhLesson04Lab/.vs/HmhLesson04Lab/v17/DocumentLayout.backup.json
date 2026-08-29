@@ -1,0 +1,196 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\ph\u00E1t tri\u1EC3n wed c\u00F4ng ngh\u1EC7 ,net\\K24CNT2_NetCore\\HmhLesson04Lab\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{904BDA4E-9A7F-4434-8C5F-DB4CCBE75083}|HmhLesson04Lab.csproj|c:\\ph\u00E1t tri\u1EC3n wed c\u00F4ng ngh\u1EC7 ,net\\k24cnt2_netcore\\hmhlesson04lab\\wwwroot\\images\\product\\may-bom-nuoc-gia-dinh.jpg||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{904BDA4E-9A7F-4434-8C5F-DB4CCBE75083}|HmhLesson04Lab.csproj|solutionrelative:wwwroot\\images\\product\\may-bom-nuoc-gia-dinh.jpg||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{904BDA4E-9A7F-4434-8C5F-DB4CCBE75083}|HmhLesson04Lab.csproj|c:\\ph\u00E1t tri\u1EC3n wed c\u00F4ng ngh\u1EC7 ,net\\k24cnt2_netcore\\hmhlesson04lab\\wwwroot\\images\\product\\tu-lanh-inverter-300l.jpg||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{904BDA4E-9A7F-4434-8C5F-DB4CCBE75083}|HmhLesson04Lab.csproj|solutionrelative:wwwroot\\images\\product\\tu-lanh-inverter-300l.jpg||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{904BDA4E-9A7F-4434-8C5F-DB4CCBE75083}|HmhLesson04Lab.csproj|c:\\ph\u00E1t tri\u1EC3n wed c\u00F4ng ngh\u1EC7 ,net\\k24cnt2_netcore\\hmhlesson04lab\\wwwroot\\images\\product\\tui-thoi-trang-mau-moi-2021.jpg||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{904BDA4E-9A7F-4434-8C5F-DB4CCBE75083}|HmhLesson04Lab.csproj|solutionrelative:wwwroot\\images\\product\\tui-thoi-trang-mau-moi-2021.jpg||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{904BDA4E-9A7F-4434-8C5F-DB4CCBE75083}|HmhLesson04Lab.csproj|c:\\ph\u00E1t tri\u1EC3n wed c\u00F4ng ngh\u1EC7 ,net\\k24cnt2_netcore\\hmhlesson04lab\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{904BDA4E-9A7F-4434-8C5F-DB4CCBE75083}|HmhLesson04Lab.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{904BDA4E-9A7F-4434-8C5F-DB4CCBE75083}|HmhLesson04Lab.csproj|c:\\ph\u00E1t tri\u1EC3n wed c\u00F4ng ngh\u1EC7 ,net\\k24cnt2_netcore\\hmhlesson04lab\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{904BDA4E-9A7F-4434-8C5F-DB4CCBE75083}|HmhLesson04Lab.csproj|solutionrelative:views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{904BDA4E-9A7F-4434-8C5F-DB4CCBE75083}|HmhLesson04Lab.csproj|c:\\ph\u00E1t tri\u1EC3n wed c\u00F4ng ngh\u1EC7 ,net\\k24cnt2_netcore\\hmhlesson04lab\\views\\hmhproduct\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{904BDA4E-9A7F-4434-8C5F-DB4CCBE75083}|HmhLesson04Lab.csproj|solutionrelative:views\\hmhproduct\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{904BDA4E-9A7F-4434-8C5F-DB4CCBE75083}|HmhLesson04Lab.csproj|c:\\ph\u00E1t tri\u1EC3n wed c\u00F4ng ngh\u1EC7 ,net\\k24cnt2_netcore\\hmhlesson04lab\\views\\hmhproduct\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{904BDA4E-9A7F-4434-8C5F-DB4CCBE75083}|HmhLesson04Lab.csproj|solutionrelative:views\\hmhproduct\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{904BDA4E-9A7F-4434-8C5F-DB4CCBE75083}|HmhLesson04Lab.csproj|c:\\ph\u00E1t tri\u1EC3n wed c\u00F4ng ngh\u1EC7 ,net\\k24cnt2_netcore\\hmhlesson04lab\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{904BDA4E-9A7F-4434-8C5F-DB4CCBE75083}|HmhLesson04Lab.csproj|solutionrelative:models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{904BDA4E-9A7F-4434-8C5F-DB4CCBE75083}|HmhLesson04Lab.csproj|c:\\ph\u00E1t tri\u1EC3n wed c\u00F4ng ngh\u1EC7 ,net\\k24cnt2_netcore\\hmhlesson04lab\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{904BDA4E-9A7F-4434-8C5F-DB4CCBE75083}|HmhLesson04Lab.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{904BDA4E-9A7F-4434-8C5F-DB4CCBE75083}|HmhLesson04Lab.csproj|c:\\ph\u00E1t tri\u1EC3n wed c\u00F4ng ngh\u1EC7 ,net\\k24cnt2_netcore\\hmhlesson04lab\\controllers\\hmhproductcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{904BDA4E-9A7F-4434-8C5F-DB4CCBE75083}|HmhLesson04Lab.csproj|solutionrelative:controllers\\hmhproductcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{904BDA4E-9A7F-4434-8C5F-DB4CCBE75083}|HmhLesson04Lab.csproj|c:\\ph\u00E1t tri\u1EC3n wed c\u00F4ng ngh\u1EC7 ,net\\k24cnt2_netcore\\hmhlesson04lab\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{904BDA4E-9A7F-4434-8C5F-DB4CCBE75083}|HmhLesson04Lab.csproj|solutionrelative:controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "may-bom-nuoc-gia-dinh.jpg - Bitmap [574x348, 24 bit, JPG]",
+              "DocumentMoniker": "C:\\ph\u00E1t tri\u1EC3n wed c\u00F4ng ngh\u1EC7 ,net\\K24CNT2_NetCore\\HmhLesson04Lab\\wwwroot\\images\\product\\may-bom-nuoc-gia-dinh.jpg",
+              "RelativeDocumentMoniker": "wwwroot\\images\\product\\may-bom-nuoc-gia-dinh.jpg",
+              "ToolTip": "C:\\ph\u00E1t tri\u1EC3n wed c\u00F4ng ngh\u1EC7 ,net\\K24CNT2_NetCore\\HmhLesson04Lab\\wwwroot\\images\\product\\may-bom-nuoc-gia-dinh.jpg - Bitmap [574x348, 24 bit, JPG]",
+              "RelativeToolTip": "wwwroot\\images\\product\\may-bom-nuoc-gia-dinh.jpg - Bitmap [574x348, 24 bit, JPG]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2026-08-29T16:25:37.147Z",
+              "EditorCaption": " - Bitmap [574x348, 24 bit, JPG]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "tu-lanh-inverter-300l.jpg - Bitmap [468x427, 24 bit, JPG]",
+              "DocumentMoniker": "C:\\ph\u00E1t tri\u1EC3n wed c\u00F4ng ngh\u1EC7 ,net\\K24CNT2_NetCore\\HmhLesson04Lab\\wwwroot\\images\\product\\tu-lanh-inverter-300l.jpg",
+              "RelativeDocumentMoniker": "wwwroot\\images\\product\\tu-lanh-inverter-300l.jpg",
+              "ToolTip": "C:\\ph\u00E1t tri\u1EC3n wed c\u00F4ng ngh\u1EC7 ,net\\K24CNT2_NetCore\\HmhLesson04Lab\\wwwroot\\images\\product\\tu-lanh-inverter-300l.jpg - Bitmap [468x427, 24 bit, JPG]",
+              "RelativeToolTip": "wwwroot\\images\\product\\tu-lanh-inverter-300l.jpg - Bitmap [468x427, 24 bit, JPG]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2026-08-29T16:25:36.11Z",
+              "EditorCaption": " - Bitmap [468x427, 24 bit, JPG]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "tui-thoi-trang-mau-moi-2021.jpg - Bitmap [225x225, 24 bit, JPG]",
+              "DocumentMoniker": "C:\\ph\u00E1t tri\u1EC3n wed c\u00F4ng ngh\u1EC7 ,net\\K24CNT2_NetCore\\HmhLesson04Lab\\wwwroot\\images\\product\\tui-thoi-trang-mau-moi-2021.jpg",
+              "RelativeDocumentMoniker": "wwwroot\\images\\product\\tui-thoi-trang-mau-moi-2021.jpg",
+              "ToolTip": "C:\\ph\u00E1t tri\u1EC3n wed c\u00F4ng ngh\u1EC7 ,net\\K24CNT2_NetCore\\HmhLesson04Lab\\wwwroot\\images\\product\\tui-thoi-trang-mau-moi-2021.jpg - Bitmap [225x225, 24 bit, JPG]",
+              "RelativeToolTip": "wwwroot\\images\\product\\tui-thoi-trang-mau-moi-2021.jpg - Bitmap [225x225, 24 bit, JPG]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2026-08-29T16:25:34.356Z",
+              "EditorCaption": " - Bitmap [225x225, 24 bit, JPG]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\ph\u00E1t tri\u1EC3n wed c\u00F4ng ngh\u1EC7 ,net\\K24CNT2_NetCore\\HmhLesson04Lab\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\ph\u00E1t tri\u1EC3n wed c\u00F4ng ngh\u1EC7 ,net\\K24CNT2_NetCore\\HmhLesson04Lab\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-29T14:33:21.453Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\ph\u00E1t tri\u1EC3n wed c\u00F4ng ngh\u1EC7 ,net\\K24CNT2_NetCore\\HmhLesson04Lab\\Views\\Product\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Product\\Index.cshtml",
+              "ToolTip": "C:\\ph\u00E1t tri\u1EC3n wed c\u00F4ng ngh\u1EC7 ,net\\K24CNT2_NetCore\\HmhLesson04Lab\\Views\\Product\\Index.cshtml",
+              "RelativeToolTip": "Views\\Product\\Index.cshtml",
+              "ViewState": "AgIAAGUAAAAAAAAAAAAAACQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-29T14:32:40.385Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\ph\u00E1t tri\u1EC3n wed c\u00F4ng ngh\u1EC7 ,net\\K24CNT2_NetCore\\HmhLesson04Lab\\Views\\HmhProduct\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\HmhProduct\\Index.cshtml",
+              "ToolTip": "C:\\ph\u00E1t tri\u1EC3n wed c\u00F4ng ngh\u1EC7 ,net\\K24CNT2_NetCore\\HmhLesson04Lab\\Views\\HmhProduct\\Index.cshtml",
+              "RelativeToolTip": "Views\\HmhProduct\\Index.cshtml",
+              "ViewState": "AgIAAGsAAAAAAAAAAAAAACMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-29T14:32:22.535Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Detail.cshtml",
+              "DocumentMoniker": "C:\\ph\u00E1t tri\u1EC3n wed c\u00F4ng ngh\u1EC7 ,net\\K24CNT2_NetCore\\HmhLesson04Lab\\Views\\HmhProduct\\Detail.cshtml",
+              "RelativeDocumentMoniker": "Views\\HmhProduct\\Detail.cshtml",
+              "ToolTip": "C:\\ph\u00E1t tri\u1EC3n wed c\u00F4ng ngh\u1EC7 ,net\\K24CNT2_NetCore\\HmhLesson04Lab\\Views\\HmhProduct\\Detail.cshtml",
+              "RelativeToolTip": "Views\\HmhProduct\\Detail.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-29T14:31:58.3Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Category.cs",
+              "DocumentMoniker": "C:\\ph\u00E1t tri\u1EC3n wed c\u00F4ng ngh\u1EC7 ,net\\K24CNT2_NetCore\\HmhLesson04Lab\\Models\\Category.cs",
+              "RelativeDocumentMoniker": "Models\\Category.cs",
+              "ToolTip": "C:\\ph\u00E1t tri\u1EC3n wed c\u00F4ng ngh\u1EC7 ,net\\K24CNT2_NetCore\\HmhLesson04Lab\\Models\\Category.cs",
+              "RelativeToolTip": "Models\\Category.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-29T14:28:36.095Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\ph\u00E1t tri\u1EC3n wed c\u00F4ng ngh\u1EC7 ,net\\K24CNT2_NetCore\\HmhLesson04Lab\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "C:\\ph\u00E1t tri\u1EC3n wed c\u00F4ng ngh\u1EC7 ,net\\K24CNT2_NetCore\\HmhLesson04Lab\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-29T14:28:07.484Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "HmhProductController.cs",
+              "DocumentMoniker": "C:\\ph\u00E1t tri\u1EC3n wed c\u00F4ng ngh\u1EC7 ,net\\K24CNT2_NetCore\\HmhLesson04Lab\\Controllers\\HmhProductController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HmhProductController.cs",
+              "ToolTip": "C:\\ph\u00E1t tri\u1EC3n wed c\u00F4ng ngh\u1EC7 ,net\\K24CNT2_NetCore\\HmhLesson04Lab\\Controllers\\HmhProductController.cs",
+              "RelativeToolTip": "Controllers\\HmhProductController.cs",
+              "ViewState": "AgIAAMkAAAAAAAAAAAAAAAcAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-29T14:26:54.142Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\ph\u00E1t tri\u1EC3n wed c\u00F4ng ngh\u1EC7 ,net\\K24CNT2_NetCore\\HmhLesson04Lab\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ProductController.cs",
+              "ToolTip": "C:\\ph\u00E1t tri\u1EC3n wed c\u00F4ng ngh\u1EC7 ,net\\K24CNT2_NetCore\\HmhLesson04Lab\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "Controllers\\ProductController.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAAAMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-29T14:26:15.304Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

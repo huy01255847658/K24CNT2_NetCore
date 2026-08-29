@@ -3,28 +3,12 @@
   "WorkspaceRootPath": "C:\\ph\u00E1t tri\u1EC3n wed c\u00F4ng ngh\u1EC7 ,net\\K24CNT2_NetCore\\HmhLesson04\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{65F1578D-83BB-49A9-AFD5-A9F7F6169D08}|HmhLesson04.csproj|c:\\ph\u00E1t tri\u1EC3n wed c\u00F4ng ngh\u1EC7 ,net\\k24cnt2_netcore\\hmhlesson04\\views\\hmhaccount\\hmhindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{65F1578D-83BB-49A9-AFD5-A9F7F6169D08}|HmhLesson04.csproj|solutionrelative:views\\hmhaccount\\hmhindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{65F1578D-83BB-49A9-AFD5-A9F7F6169D08}|HmhLesson04.csproj|c:\\ph\u00E1t tri\u1EC3n wed c\u00F4ng ngh\u1EC7 ,net\\k24cnt2_netcore\\hmhlesson04\\controllers\\hmhaccountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{65F1578D-83BB-49A9-AFD5-A9F7F6169D08}|HmhLesson04.csproj|solutionrelative:controllers\\hmhaccountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{65F1578D-83BB-49A9-AFD5-A9F7F6169D08}|HmhLesson04.csproj|c:\\ph\u00E1t tri\u1EC3n wed c\u00F4ng ngh\u1EC7 ,net\\k24cnt2_netcore\\hmhlesson04\\views\\hmhaccount\\hmhprofile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{65F1578D-83BB-49A9-AFD5-A9F7F6169D08}|HmhLesson04.csproj|solutionrelative:views\\hmhaccount\\hmhprofile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{65F1578D-83BB-49A9-AFD5-A9F7F6169D08}|HmhLesson04.csproj|c:\\ph\u00E1t tri\u1EC3n wed c\u00F4ng ngh\u1EC7 ,net\\k24cnt2_netcore\\hmhlesson04\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{65F1578D-83BB-49A9-AFD5-A9F7F6169D08}|HmhLesson04.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{65F1578D-83BB-49A9-AFD5-A9F7F6169D08}|HmhLesson04.csproj|c:\\ph\u00E1t tri\u1EC3n wed c\u00F4ng ngh\u1EC7 ,net\\k24cnt2_netcore\\hmhlesson04\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{65F1578D-83BB-49A9-AFD5-A9F7F6169D08}|HmhLesson04.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{65F1578D-83BB-49A9-AFD5-A9F7F6169D08}|HmhLesson04.csproj|c:\\ph\u00E1t tri\u1EC3n wed c\u00F4ng ngh\u1EC7 ,net\\k24cnt2_netcore\\hmhlesson04\\models\\hmhaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{65F1578D-83BB-49A9-AFD5-A9F7F6169D08}|HmhLesson04.csproj|solutionrelative:models\\hmhaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{65F1578D-83BB-49A9-AFD5-A9F7F6169D08}|HmhLesson04.csproj|c:\\ph\u00E1t tri\u1EC3n wed c\u00F4ng ngh\u1EC7 ,net\\k24cnt2_netcore\\hmhlesson04\\views\\hmhaccount\\hmhindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{65F1578D-83BB-49A9-AFD5-A9F7F6169D08}|HmhLesson04.csproj|solutionrelative:views\\hmhaccount\\hmhindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,71 +18,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\ph\u00E1t tri\u1EC3n wed c\u00F4ng ngh\u1EC7 ,net\\K24CNT2_NetCore\\HmhLesson04\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\ph\u00E1t tri\u1EC3n wed c\u00F4ng ngh\u1EC7 ,net\\K24CNT2_NetCore\\HmhLesson04\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAB2AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-08-29T06:12:38.695Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\ph\u00E1t tri\u1EC3n wed c\u00F4ng ngh\u1EC7 ,net\\K24CNT2_NetCore\\HmhLesson04\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\ph\u00E1t tri\u1EC3n wed c\u00F4ng ngh\u1EC7 ,net\\K24CNT2_NetCore\\HmhLesson04\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAAACIAAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-29T06:09:19.468Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "HmhProfile.cshtml",
               "DocumentMoniker": "C:\\ph\u00E1t tri\u1EC3n wed c\u00F4ng ngh\u1EC7 ,net\\K24CNT2_NetCore\\HmhLesson04\\Views\\HmhAccount\\HmhProfile.cshtml",
               "RelativeDocumentMoniker": "Views\\HmhAccount\\HmhProfile.cshtml",
               "ToolTip": "C:\\ph\u00E1t tri\u1EC3n wed c\u00F4ng ngh\u1EC7 ,net\\K24CNT2_NetCore\\HmhLesson04\\Views\\HmhAccount\\HmhProfile.cshtml",
               "RelativeToolTip": "Views\\HmhAccount\\HmhProfile.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABHAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-08-29T05:47:13.498Z"
+              "WhenOpened": "2026-08-29T14:47:22.296Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "HmhAccountController.cs",
-              "DocumentMoniker": "C:\\ph\u00E1t tri\u1EC3n wed c\u00F4ng ngh\u1EC7 ,net\\K24CNT2_NetCore\\HmhLesson04\\Controllers\\HmhAccountController.cs",
-              "RelativeDocumentMoniker": "Controllers\\HmhAccountController.cs",
-              "ToolTip": "C:\\ph\u00E1t tri\u1EC3n wed c\u00F4ng ngh\u1EC7 ,net\\K24CNT2_NetCore\\HmhLesson04\\Controllers\\HmhAccountController.cs",
-              "RelativeToolTip": "Controllers\\HmhAccountController.cs",
-              "ViewState": "AgIAAFMAAAAAAAAAAAAowFwAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-29T05:36:23.433Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "HmhAccount.cs",
-              "DocumentMoniker": "C:\\ph\u00E1t tri\u1EC3n wed c\u00F4ng ngh\u1EC7 ,net\\K24CNT2_NetCore\\HmhLesson04\\Models\\HmhAccount.cs",
-              "RelativeDocumentMoniker": "Models\\HmhAccount.cs",
-              "ToolTip": "C:\\ph\u00E1t tri\u1EC3n wed c\u00F4ng ngh\u1EC7 ,net\\K24CNT2_NetCore\\HmhLesson04\\Models\\HmhAccount.cs",
-              "RelativeToolTip": "Models\\HmhAccount.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAAAAwAAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-29T04:28:17.555Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
               "Title": "HmhIndex.cshtml",
               "DocumentMoniker": "C:\\ph\u00E1t tri\u1EC3n wed c\u00F4ng ngh\u1EC7 ,net\\K24CNT2_NetCore\\HmhLesson04\\Views\\HmhAccount\\HmhIndex.cshtml",
               "RelativeDocumentMoniker": "Views\\HmhAccount\\HmhIndex.cshtml",
