@@ -1,0 +1,13 @@
+﻿@model IEnumerable<HmhLesson06.Models.Category>
+
+<div class="bg-danger">
+    <ul class="list-group">
+        <li class="list-group-item active">DANH MỤC</li>
+    @foreach (var item in Model)
+    {
+        <li class="list-group-item">
+            <a href="#">@item.CategoryName</a>
+        </li>
+    }
+    </ul>
+</div>

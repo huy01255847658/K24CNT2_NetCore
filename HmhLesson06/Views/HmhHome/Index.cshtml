@@ -1,0 +1,16 @@
+﻿@{
+    ViewData["Title"] = "Thông tin sinh viên";
+    var student = new
+    {
+        studentId = "2410900040",
+        studentName = "Hoàng Mạnh Huy",
+        studentClass = "K24CNT2",
+        email= "huy01255847658@gmail.com"
+    };
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome to, @ViewData["Title"]</h1>
+    <p>Mã: @student.studentId</p>
+    <p>Họ và tên: @student.studentName</p>
+</div>
