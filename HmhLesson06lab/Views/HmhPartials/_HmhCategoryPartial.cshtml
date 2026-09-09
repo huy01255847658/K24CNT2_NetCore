@@ -1,0 +1,30 @@
+@using HmhLesson06lab.Data
+@{
+    var categories = HmhDataStore.Categories;
+}
+
+<div class="hmh-category-box mb-4">
+    <div class="hmh-box-header">
+        <h5 class="m-0 text-white font-weight-bold">Danh mục sản phẩm</h5>
+    </div>
+    <ul class="list-group hmh-category-list">
+        @foreach (var cat in categories)
+        {
+            <li class="list-group-item hmh-category-item">
+                <a href="#cat-@cat.Id" class="text-decoration-none hmh-cat-link">@cat.Name</a>
+            </li>
+        }
+    </ul>
+</div>
+
+<div class="hmh-sidebar-banner mb-4">
+    <div class="card border-primary text-center hmh-banner-card">
+        <div class="card-body p-2 bg-gradient-banner">
+            <div class="badge bg-warning text-dark font-weight-bold mb-1">ĐỔI CŨ</div>
+            <div class="text-warning fw-bold fs-6">LẤY MỚI</div>
+            <div class="text-white fw-bold small">LÊN ĐỜI NỒI CHIÊN FASTER</div>
+            <img src="/images/banner-noi-chien.png" alt="Đổi cũ lấy mới Faster" class="img-fluid my-2 hmh-banner-img" />
+            <div class="text-white bg-danger p-1 rounded font-weight-bold small">Chỉ 2.850.000đ</div>
+        </div>
+    </div>
+</div>

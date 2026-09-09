@@ -1,0 +1,29 @@
+@model IEnumerable<HmhLesson06lab.Models.HmhProduct>
+
+<div class="hmh-box mb-4">
+    <div class="hmh-box-header">
+        <h5 class="m-0 text-white font-weight-bold">Sản phẩm nổi bật / Hot</h5>
+    </div>
+    <div class="hmh-box-body">
+        <div class="row">
+            @if (Model != null && Model.Any())
+            {
+                foreach (var item in Model)
+                {
+                    <div class="col-md-4 col-sm-6 mb-3">
+                        <div class="hmh-product-card text-center h-100 p-2 border">
+                            <div class="hmh-product-img-wrapper mb-2">
+                                <img src="@item.Image" alt="@item.Name" class="img-fluid hmh-product-img" />
+                            </div>
+                            <h6 class="hmh-product-title mt-2">@item.Name</h6>
+                            @if (item.Price > 0)
+                            {
+                                <div class="hmh-product-price text-danger font-weight-bold">@item.Price.ToString("N0") đ</div>
+                            }
+                        </div>
+                    </div>
+                }
+            }
+        </div>
+    </div>
+</div>
