@@ -1,0 +1,55 @@
+﻿@model IEnumerable<HmhLesson07.Models.DataModels.HmhMember>
+
+@{
+    ViewData["Title"] = "Danh sách thành viên";
+}
+
+<div clss="card p-3"
+    <h1>@ViewData["Title"]</h1>
+
+    <p>
+        <a asp-action="Create" class="btn btn-primary my-1">Thêm mới</a>
+    </p>
+    <table class="table table-bordered table-striped">
+        <thead>
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.HmhUserName)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.HmhPassword)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.HmhFullName)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.HmhEmail)
+                </th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+    @foreach (var item in Model) {
+            <tr>
+                <td>
+                    @Html.DisplayFor(model => item.HmhUserName)
+                </td>
+                <td>
+                    @Html.DisplayFor(model => item.HmhPassword)
+                </td>
+                <td>
+                    @Html.DisplayFor(model => item.HmhFullName)
+                </td>
+                <td>
+                    @Html.DisplayFor(model => item.HmhEmail)
+                </td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.HmhMemberId">Edit</a> |
+                    <a asp-action="Details" asp-route-id="@item.HmhMemberId">Details</a> |
+                    <a asp-action="Delete" asp-route-id="@item.HmhMemberId">Delete</a>
+                </td>
+            </tr>
+    }
+        </tbody>
+    </table>
+</div>

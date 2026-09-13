@@ -1,0 +1,20 @@
+﻿
+@{
+    ViewData["Title"] = "Thông tin Member";
+    var member = Model as HmhLesson07.Models.DataModels.HmhMember;
+}
+
+<div class="alert alert-info">
+    <h1>@ViewData["Title"]</h1>
+    @* <p>Member id: @ViewBag.Member.HmhMemberId</p>
+    <p>UserName: @ViewBag.Member.HmhUserName</p>
+    <p>Password: @ViewBag.Member.HmhPassword</p>
+    <p>FullName: @ViewBag.Member.HmhFullName</p>
+    <p>Email: @ViewBag.Member.HmhEmail</p> *@
+
+    <p>Member id: @member.HmhMemberId</p>
+    <p>UserName: @member.HmhUserName</p>
+    <p>Password: @member.HmhPassword</p>
+    <p>FullName: @member.HmhFullName</p>
+    <p>Email: @member.HmhEmail</p>
+</div>
