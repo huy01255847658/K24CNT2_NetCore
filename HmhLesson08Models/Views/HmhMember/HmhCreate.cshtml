@@ -1,0 +1,56 @@
+﻿@model HmhLesson08Models.Models.HmhMember
+
+@{
+    ViewData["Title"] = "Thêm mới thành viên";
+}
+<form asp-action="HmhCreate" method="post">
+<div class="card p-3">
+    <div class="card-header">
+        <h1>@ViewData["Title"]</h1>
+    </div>
+        <div class="card-body">
+            <div class="row">
+                <div class="col-md-4">
+                    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                        
+                        <div class="form-group">
+                        <label asp-for="HmhMemberId" class=" control-label"></label>
+                            <input asp-for="HmhMemberId" class="form-control" />
+                            <span asp-validation-for="HmhMemberId" class="text-danger"></span>
+                        </div>
+
+                        <div class="form-group">
+                            <label asp-for="HmhUserName" class="control-label"></label>
+                            <input asp-for="HmhUserName" class="form-control" />
+                            <span asp-validation-for="HmhUserName" class="text-danger"></span>
+                        </div>
+
+                        <div class="form-group">
+                            <label asp-for="HmhPassword" class="control-label"></label>
+                            <input asp-for="HmhPassword" class="form-control" />
+                            <span asp-validation-for="HmhPassword" class="text-danger"></span>
+                        </div>
+
+                        <div class="form-group">
+                            <label asp-for="HmhFullName" class="control-label"></label>
+                            <input asp-for="HmhFullName" class="form-control" />
+                            <span asp-validation-for="HmhFullName" class="text-danger"></span>
+                        </div>
+
+                        <div class="form-group">
+                            <label asp-for="HmhEmail" class="control-label"></label>
+                            <input asp-for="HmhEmail" class="form-control" />
+                            <span asp-validation-for="HmhEmail" class="text-danger"></span>
+                        </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card-footer">
+            <div class="form-group">
+                <input type="submit" value="ghi lại" class="btn btn-primary" />
+                <a asp-action="index" class="btn btn-secondary">quay lại</a>
+            </div>
+        </div>
+</div>
+</form>

@@ -1,0 +1,61 @@
+﻿@model IEnumerable<HmhLesson08Models.Models.HmhMember>
+
+@{
+    ViewData["Title"] = "Danh sách thành viên";
+}
+
+<div class="card p-3">
+    <div class="card-header">
+        <h1>@ViewData["Title"]</h1>
+        <a asp-action="HmhCreate">Thêm mới</a>
+    </div>
+    
+    <div class="card-body">
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th>
+                        @Html.DisplayNameFor(model => model.HmhMemberId)    
+<th>
+                        @Html.DisplayNameFor(model => model.HmhUserName)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.HmhPassword)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.HmhFullName)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.HmhEmail)
+                    </th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model) {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(model => item.HmhMemberId)
+                    <td>
+                        @Html.DisplayFor(model => item.HmhUserName)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(model => item.HmhPassword)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(model => item.HmhFullName)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(model => item.HmhEmail)
+                    </td>
+                    <td>
+                        @Html.ActionLink("Sửa", "HmhEdit", new { id = item.HmhMemberId }) |
+                        @Html.ActionLink("Xem chi tiết", "HmhDetails", new { id = item.HmhMemberId })
+                        @Html.ActionLink("Xóa", "HmhDelete", new { id = item.HmhMemberId })
+                    </td>
+                </tr>
+}
+            </tbody>
+        </table>
+    </div>
+</div>
