@@ -1,0 +1,53 @@
+@model HmhLesson08Lab.Models.HmhProduct
+
+@{
+    ViewData["Title"] = "Chi tiết Sản phẩm";
+    var categoryName = ViewBag.CategoryName as string ?? "—";
+}
+
+<h1>Chi tiết Sản phẩm</h1>
+<hr />
+
+<dl class="row">
+    <dt class="col-sm-3">ID</dt>
+    <dd class="col-sm-9">@Model.Id</dd>
+
+    <dt class="col-sm-3">Tên sản phẩm</dt>
+    <dd class="col-sm-9">@Model.Name</dd>
+
+    <dt class="col-sm-3">Giá gốc</dt>
+    <dd class="col-sm-9">@Model.Price.ToString("N0") đ</dd>
+
+    <dt class="col-sm-3">Giá khuyến mãi</dt>
+    <dd class="col-sm-9">@Model.SalePrice.ToString("N0") đ</dd>
+
+    <dt class="col-sm-3">Danh mục</dt>
+    <dd class="col-sm-9">@categoryName</dd>
+
+    <dt class="col-sm-3">Hình ảnh</dt>
+    <dd class="col-sm-9">@Model.Image</dd>
+
+    <dt class="col-sm-3">Trạng thái</dt>
+    <dd class="col-sm-9">
+        @if (Model.Status)
+        {
+            <span class="badge bg-success">Còn hàng</span>
+        }
+        else
+        {
+            <span class="badge bg-secondary">Hết hàng</span>
+        }
+    </dd>
+
+    <dt class="col-sm-3">Ngày tạo</dt>
+    <dd class="col-sm-9">@Model.CreatedDate.ToString("dd/MM/yyyy HH:mm")</dd>
+
+    <dt class="col-sm-3">Mô tả</dt>
+    <dd class="col-sm-9">@Model.Description</dd>
+</dl>
+
+<div class="d-flex gap-2">
+    <a asp-action="HmhEdit" asp-route-id="@Model.Id" class="btn btn-warning">Sửa</a>
+    <a asp-action="HmhDelete" asp-route-id="@Model.Id" class="btn btn-danger">Xóa</a>
+    <a asp-action="HmhIndex" class="btn btn-secondary">Quay lại danh sách</a>
+</div>

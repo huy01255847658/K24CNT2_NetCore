@@ -1,0 +1,48 @@
+@model HmhLesson08Lab.Models.HmhProduct
+
+@{
+    ViewData["Title"] = "Xóa Sản phẩm";
+    var categoryName = ViewBag.CategoryName as string ?? "—";
+}
+
+<h1>Xác nhận Xóa Sản phẩm</h1>
+<hr />
+
+<div class="alert alert-danger">
+    <strong>Bạn có chắc chắn muốn xóa sản phẩm này không?</strong>
+</div>
+
+<dl class="row">
+    <dt class="col-sm-3">ID</dt>
+    <dd class="col-sm-9">@Model.Id</dd>
+
+    <dt class="col-sm-3">Tên sản phẩm</dt>
+    <dd class="col-sm-9">@Model.Name</dd>
+
+    <dt class="col-sm-3">Giá gốc</dt>
+    <dd class="col-sm-9">@Model.Price.ToString("N0") đ</dd>
+
+    <dt class="col-sm-3">Giá KM</dt>
+    <dd class="col-sm-9">@Model.SalePrice.ToString("N0") đ</dd>
+
+    <dt class="col-sm-3">Danh mục</dt>
+    <dd class="col-sm-9">@categoryName</dd>
+
+    <dt class="col-sm-3">Trạng thái</dt>
+    <dd class="col-sm-9">@(Model.Status ? "Còn hàng" : "Hết hàng")</dd>
+
+    <dt class="col-sm-3">Ngày tạo</dt>
+    <dd class="col-sm-9">@Model.CreatedDate.ToString("dd/MM/yyyy")</dd>
+
+    <dt class="col-sm-3">Mô tả</dt>
+    <dd class="col-sm-9">@Model.Description</dd>
+</dl>
+
+<form asp-action="HmhDelete" method="post">
+    @Html.AntiForgeryToken()
+    <input type="hidden" asp-for="Id" />
+    <div class="d-flex gap-2">
+        <button type="submit" class="btn btn-danger">Xác nhận Xóa</button>
+        <a asp-action="HmhIndex" class="btn btn-secondary">Hủy</a>
+    </div>
+</form>

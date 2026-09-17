@@ -1,0 +1,58 @@
+@model IEnumerable<HmhLesson08Lab.Models.HmhProduct>
+
+@{
+    ViewData["Title"] = "Danh sách Sản phẩm";
+    var categories = ViewBag.Categories as List<HmhLesson08Lab.Models.HmhCategory>
+                     ?? new List<HmhLesson08Lab.Models.HmhCategory>();
+}
+
+<div class="d-flex justify-content-between align-items-center mb-3">
+    <h1>Danh sách Sản phẩm</h1>
+    <a asp-action="HmhCreate" class="btn btn-success">
+        <i class="bi bi-plus-circle"></i> Thêm mới
+    </a>
+</div>
+
+<table class="table table-bordered table-hover table-striped">
+    <thead class="table-dark">
+        <tr>
+            <th>ID</th>
+            <th>Tên sản phẩm</th>
+            <th>Giá</th>
+            <th>Giá KM</th>
+            <th>Danh mục</th>
+            <th>Trạng thái</th>
+            <th>Ngày tạo</th>
+            <th style="width:220px">Thao tác</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            var catName = categories.FirstOrDefault(c => c.Id == item.CategoryId)?.Name ?? "—";
+            <tr>
+                <td>@item.Id</td>
+                <td>@item.Name</td>
+                <td>@item.Price.ToString("N0") đ</td>
+                <td>@item.SalePrice.ToString("N0") đ</td>
+                <td>@catName</td>
+                <td>
+                    @if (item.Status)
+                    {
+                        <span class="badge bg-success">Còn hàng</span>
+                    }
+                    else
+                    {
+                        <span class="badge bg-secondary">Hết hàng</span>
+                    }
+                </td>
+                <td>@item.CreatedDate.ToString("dd/MM/yyyy")</td>
+                <td>
+                    <a asp-action="HmhDetail" asp-route-id="@item.Id" class="btn btn-info btn-sm">Chi tiết</a>
+                    <a asp-action="HmhEdit" asp-route-id="@item.Id" class="btn btn-warning btn-sm">Sửa</a>
+                    <a asp-action="HmhDelete" asp-route-id="@item.Id" class="btn btn-danger btn-sm">Xóa</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

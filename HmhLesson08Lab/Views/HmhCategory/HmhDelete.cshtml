@@ -1,0 +1,29 @@
+@model HmhLesson08Lab.Models.HmhCategory
+
+@{
+    ViewData["Title"] = "Xóa Danh mục";
+}
+
+<h1>Xác nhận Xóa Danh mục</h1>
+<hr />
+
+<div class="alert alert-danger">
+    <strong>Bạn có chắc chắn muốn xóa danh mục này không?</strong>
+</div>
+
+<dl class="row">
+    <dt class="col-sm-3">ID</dt>
+    <dd class="col-sm-9">@Model.Id</dd>
+
+    <dt class="col-sm-3">Tên danh mục</dt>
+    <dd class="col-sm-9">@Model.Name</dd>
+</dl>
+
+<form asp-action="HmhDelete" method="post">
+    @Html.AntiForgeryToken()
+    <input type="hidden" asp-for="Id" />
+    <div class="d-flex gap-2">
+        <button type="submit" class="btn btn-danger">Xác nhận Xóa</button>
+        <a asp-action="HmhIndex" class="btn btn-secondary">Hủy</a>
+    </div>
+</form>

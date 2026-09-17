@@ -1,0 +1,21 @@
+@model HmhLesson08Lab.Models.HmhCategory
+
+@{
+    ViewData["Title"] = "Chi tiết Danh mục";
+}
+
+<h1>Chi tiết Danh mục</h1>
+<hr />
+
+<dl class="row">
+    <dt class="col-sm-3">ID</dt>
+    <dd class="col-sm-9">@Model.Id</dd>
+
+    <dt class="col-sm-3">Tên danh mục</dt>
+    <dd class="col-sm-9">@Model.Name</dd>
+</dl>
+
+<div class="d-flex gap-2">
+    <a asp-action="HmhEdit" asp-route-id="@Model.Id" class="btn btn-warning">Sửa</a>
+    <a asp-action="HmhIndex" class="btn btn-secondary">Quay lại danh sách</a>
+</div>
