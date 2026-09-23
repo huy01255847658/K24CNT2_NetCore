@@ -1,0 +1,77 @@
+@model HmhLesson09Lab.Models.HmhProduct
+
+@{
+    ViewData["Title"] = "Xóa sản phẩm - HMH";
+    var categoryName = ViewBag.CategoryName as string ?? "N/A";
+}
+
+<div class="container py-4" style="max-width: 600px;">
+    <div class="card shadow border-0 border-top border-danger border-4">
+        <div class="card-header bg-danger text-white py-3">
+            <h4 class="mb-0 fw-bold">
+                <i class="bi bi-exclamation-triangle me-2"></i>Xác nhận xóa sản phẩm
+            </h4>
+        </div>
+        <div class="card-body p-4">
+            <div class="alert alert-warning d-flex align-items-center" role="alert">
+                <i class="bi bi-exclamation-circle-fill me-3 fs-4"></i>
+                <div>
+                    Bạn có chắc muốn xóa sản phẩm này? <strong>Hành động này không thể hoàn tác!</strong>
+                </div>
+            </div>
+
+            <div class="row align-items-center mt-3">
+                <div class="col-4 text-center">
+                    @if (!string.IsNullOrEmpty(Model.Image))
+                    {
+                        <img src="@Model.Image" alt="@Model.Name"
+                             class="img-fluid rounded shadow"
+                             style="max-height: 130px; object-fit: cover;" />
+                    }
+                    else
+                    {
+                        <div class="bg-light rounded d-flex align-items-center justify-content-center" style="height: 100px;">
+                            <i class="bi bi-image text-muted fs-1"></i>
+                        </div>
+                    }
+                </div>
+
+                <div class="col-8">
+                    <table class="table table-sm table-borderless mb-0">
+                        <tr>
+                            <th class="text-muted">Tên:</th>
+                            <td class="fw-bold">@Model.Name</td>
+                        </tr>
+                        <tr>
+                            <th class="text-muted">Danh mục:</th>
+                            <td><span class="badge bg-primary">@categoryName</span></td>
+                        </tr>
+                        <tr>
+                            <th class="text-muted">Giá gốc:</th>
+                            <td class="text-muted text-decoration-line-through">@Model.Price.ToString("N0") VNĐ</td>
+                        </tr>
+                        <tr>
+                            <th class="text-muted">Giá KM:</th>
+                            <td class="text-danger fw-bold">@Model.SalePrice.ToString("N0") VNĐ</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+
+            <hr class="my-4" />
+
+            <form asp-action="Delete" method="post">
+                @Html.AntiForgeryToken()
+                <input type="hidden" asp-for="Id" />
+                <div class="d-flex justify-content-between">
+                    <a asp-action="Index" class="btn btn-secondary">
+                        <i class="bi bi-x-circle me-1"></i> Hủy bỏ
+                    </a>
+                    <button type="submit" class="btn btn-danger px-4">
+                        <i class="bi bi-trash me-1"></i> Xác nhận Xóa
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

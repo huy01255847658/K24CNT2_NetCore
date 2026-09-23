@@ -1,0 +1,91 @@
+@model List<HmhLesson09Lab.Models.HmhProduct>
+
+@{
+    ViewData["Title"] = "Danh sách sản phẩm - HMH";
+    var categories = ViewBag.Categories as List<HmhLesson09Lab.Models.HmhCategory>;
+}
+
+<div class="container py-4">
+    <div class="d-flex justify-content-between align-items-center mb-4">
+        <h2 class="fw-bold text-primary">
+            <i class="bi bi-box-seam me-2"></i>Quản lý Sản phẩm
+        </h2>
+        <a asp-action="Create" class="btn btn-success btn-lg shadow-sm">
+            <i class="bi bi-plus-circle me-1"></i> Thêm sản phẩm mới
+        </a>
+    </div>
+
+    @if (TempData["SuccessMessage"] != null)
+    {
+        <div class="alert alert-success alert-dismissible fade show shadow-sm" role="alert">
+            <i class="bi bi-check-circle-fill me-2"></i> @TempData["SuccessMessage"]
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>
+    }
+
+    @if (Model == null || !Model.Any())
+    {
+        <div class="alert alert-info text-center py-5">
+            <i class="bi bi-inbox display-4 d-block mb-3"></i>
+            <h5>Chưa có sản phẩm nào. Hãy thêm sản phẩm mới!</h5>
+        </div>
+    }
+    else
+    {
+        <div class="card shadow-sm border-0">
+            <div class="card-body p-0">
+                <table class="table table-hover table-striped align-middle mb-0">
+                    <thead class="table-dark">
+                        <tr>
+                            <th>#</th>
+                            <th>Ảnh</th>
+                            <th>Tên sản phẩm</th>
+                            <th>Danh mục</th>
+                            <th class="text-end">Giá gốc</th>
+                            <th class="text-end">Giá KM</th>
+                            <th class="text-center">Thao tác</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @{int stt = 1;}
+                        @foreach (var p in Model)
+                        {
+                            var catName = categories?.FirstOrDefault(c => c.Id == p.CategoryId)?.Name ?? "N/A";
+                            <tr>
+                                <td>@stt</td>
+                                <td>
+                                    @if (!string.IsNullOrEmpty(p.Image))
+                                    {
+                                        <img src="@p.Image" alt="@p.Name" style="width:60px;height:60px;object-fit:cover;" class="rounded shadow-sm" />
+                                    }
+                                    else
+                                    {
+                                        <span class="badge bg-secondary">Chưa có ảnh</span>
+                                    }
+                                </td>
+                                <td class="fw-semibold">@p.Name</td>
+                                <td><span class="badge bg-primary">@catName</span></td>
+                                <td class="text-end text-muted text-decoration-line-through">@p.Price.ToString("N0") VNĐ</td>
+                                <td class="text-end text-danger fw-bold">@p.SalePrice.ToString("N0") VNĐ</td>
+                                <td class="text-center">
+                                    <div class="d-flex gap-1 justify-content-center">
+                                        <a asp-action="Details" asp-route-id="@p.Id" class="btn btn-outline-info btn-sm">
+                                            <i class="bi bi-eye"></i> Chi tiết
+                                        </a>
+                                        <a asp-action="Edit" asp-route-id="@p.Id" class="btn btn-outline-warning btn-sm">
+                                            <i class="bi bi-pencil"></i> Sửa
+                                        </a>
+                                        <a asp-action="Delete" asp-route-id="@p.Id" class="btn btn-outline-danger btn-sm">
+                                            <i class="bi bi-trash"></i> Xóa
+                                        </a>
+                                    </div>
+                                </td>
+                            </tr>
+                            stt++;
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    }
+</div>

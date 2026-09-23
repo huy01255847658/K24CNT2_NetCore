@@ -1,0 +1,81 @@
+@model HmhLesson09Lab.Models.HmhProduct
+
+@{
+    ViewData["Title"] = "Chi tiết sản phẩm - HMH";
+    var categoryName = ViewBag.CategoryName as string ?? "N/A";
+}
+
+<div class="container py-4" style="max-width: 800px;">
+    <div class="card shadow border-0">
+        <div class="card-header bg-info text-white py-3">
+            <h4 class="mb-0 fw-bold">
+                <i class="bi bi-info-circle me-2"></i>Chi tiết sản phẩm
+            </h4>
+        </div>
+        <div class="card-body p-4">
+            <div class="row g-4">
+                <div class="col-md-4 text-center">
+                    @if (!string.IsNullOrEmpty(Model.Image))
+                    {
+                        <img src="@Model.Image" alt="@Model.Name"
+                             class="img-fluid rounded shadow"
+                             style="max-height: 250px; object-fit: cover;" />
+                    }
+                    else
+                    {
+                        <div class="bg-light rounded d-flex align-items-center justify-content-center"
+                             style="height: 200px;">
+                            <i class="bi bi-image text-muted display-4"></i>
+                        </div>
+                    }
+                </div>
+
+                <div class="col-md-8">
+                    <table class="table table-borderless">
+                        <tr>
+                            <th class="text-muted" style="width: 140px;">Mã sản phẩm:</th>
+                            <td><span class="badge bg-secondary fs-6">#@Model.Id</span></td>
+                        </tr>
+                        <tr>
+                            <th class="text-muted">Tên sản phẩm:</th>
+                            <td class="fw-bold fs-5">@Model.Name</td>
+                        </tr>
+                        <tr>
+                            <th class="text-muted">Danh mục:</th>
+                            <td><span class="badge bg-primary">@categoryName</span></td>
+                        </tr>
+                        <tr>
+                            <th class="text-muted">Giá gốc:</th>
+                            <td class="text-muted text-decoration-line-through">@Model.Price.ToString("N0") VNĐ</td>
+                        </tr>
+                        <tr>
+                            <th class="text-muted">Giá khuyến mãi:</th>
+                            <td class="text-danger fw-bold fs-5">@Model.SalePrice.ToString("N0") VNĐ</td>
+                        </tr>
+                    </table>
+
+                    <div class="mt-2">
+                        <h6 class="text-muted fw-semibold">Mô tả sản phẩm:</h6>
+                        <p class="border rounded p-3 bg-light">@Model.Description</p>
+                    </div>
+                </div>
+            </div>
+
+            <hr class="mt-4" />
+
+            <div class="d-flex justify-content-between">
+                <a asp-action="Index" class="btn btn-secondary">
+                    <i class="bi bi-arrow-left me-1"></i> Quay lại danh sách
+                </a>
+                <div>
+                    <a asp-action="Edit" asp-route-id="@Model.Id" class="btn btn-warning me-2">
+                        <i class="bi bi-pencil me-1"></i> Chỉnh sửa
+                    </a>
+                    <a asp-action="Delete" asp-route-id="@Model.Id" class="btn btn-danger">
+                        <i class="bi bi-trash me-1"></i> Xóa
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

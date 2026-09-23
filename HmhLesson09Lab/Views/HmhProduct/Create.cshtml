@@ -1,0 +1,109 @@
+@model HmhLesson09Lab.Models.HmhProduct
+
+@{
+    ViewData["Title"] = "Thêm sản phẩm mới - HMH";
+}
+
+<div class="container py-4" style="max-width: 800px;">
+    <div class="card shadow border-0">
+        <div class="card-header bg-success text-white py-3">
+            <h4 class="mb-0 fw-bold">
+                <i class="bi bi-plus-circle me-2"></i>Thêm sản phẩm mới
+            </h4>
+        </div>
+        <div class="card-body p-4">
+            <form asp-action="Create" method="post" enctype="multipart/form-data" novalidate>
+                @Html.AntiForgeryToken()
+
+                <div class="row g-3">
+                    <div class="col-12">
+                        <label asp-for="Name" class="form-label fw-semibold"></label>
+                        <input asp-for="Name" class="form-control" placeholder="Nhập tên sản phẩm (ít nhất 6 ký tự)" />
+                        <span asp-validation-for="Name" class="text-danger small"></span>
+                    </div>
+
+                    <div class="col-12">
+                        <label asp-for="CategoryId" class="form-label fw-semibold"></label>
+                        <select asp-for="CategoryId" asp-items="ViewBag.CategoryList" class="form-select">
+                            <option value="">-- Chọn danh mục --</option>
+                        </select>
+                        <span asp-validation-for="CategoryId" class="text-danger small"></span>
+                    </div>
+
+                    <div class="col-12">
+                        <label asp-for="ImageFile" class="form-label fw-semibold"></label>
+                        <input asp-for="ImageFile" type="file" class="form-control"
+                               accept=".jpg,.jpeg,.png,.gif,.webp"
+                               onchange="previewImage(this)" />
+                        <span asp-validation-for="ImageFile" class="text-danger small"></span>
+                        <div class="mt-2">
+                            <img id="imgPreview" src="#" alt="Preview" class="img-thumbnail d-none"
+                                 style="max-height: 150px; max-width: 100%;" />
+                        </div>
+                    </div>
+
+                    <div class="col-12">
+                        <label asp-for="Price" class="form-label fw-semibold"></label>
+                        <div class="input-group">
+                            <input asp-for="Price" type="number" class="form-control"
+                                   placeholder="100000" min="100000" step="1000"
+                                   id="Price" />
+                            <span class="input-group-text">VNĐ</span>
+                        </div>
+                        <span asp-validation-for="Price" class="text-danger small"></span>
+                    </div>
+
+                    <div class="col-12">
+                        <label asp-for="SalePrice" class="form-label fw-semibold"></label>
+                        <div class="input-group">
+                            <input asp-for="SalePrice" type="number" class="form-control"
+                                   placeholder="0" min="0" step="1000" />
+                            <span class="input-group-text">VNĐ</span>
+                        </div>
+                        <span asp-validation-for="SalePrice" class="text-danger small"></span>
+                        <small class="text-muted">Giá khuyến mãi phải thấp hơn giá gốc ít nhất 10%</small>
+                    </div>
+
+                    <div class="col-12">
+                        <label asp-for="Description" class="form-label fw-semibold"></label>
+                        <textarea asp-for="Description" class="form-control" rows="4"
+                                  placeholder="Nhập mô tả sản phẩm (tối đa 1500 ký tự)..."></textarea>
+                        <span asp-validation-for="Description" class="text-danger small"></span>
+                        <small class="text-muted">Không được chứa các từ không phù hợp (die, admin, fack, ...)</small>
+                    </div>
+                </div>
+
+                <hr class="my-4" />
+
+                <div class="d-flex justify-content-between">
+                    <a asp-action="Index" class="btn btn-secondary">
+                        <i class="bi bi-arrow-left me-1"></i> Quay lại
+                    </a>
+                    <button type="submit" class="btn btn-success px-4">
+                        <i class="bi bi-save me-1"></i> Lưu sản phẩm
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+    <script>
+        function previewImage(input) {
+            const preview = document.getElementById('imgPreview');
+            if (input.files && input.files[0]) {
+                const reader = new FileReader();
+                reader.onload = function (e) {
+                    preview.src = e.target.result;
+                    preview.classList.remove('d-none');
+                };
+                reader.readAsDataURL(input.files[0]);
+            } else {
+                preview.src = '#';
+                preview.classList.add('d-none');
+            }
+        }
+    </script>
+}
