@@ -1,0 +1,77 @@
+﻿@model IEnumerable<HmhLesson09Annotation.Models.DataModels.HmhMember>
+
+@{
+    ViewData["Title"] = "Danh sách thành viên";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.HmhMemberId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.HmhUserName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.HmhPassword)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.HmhEmail)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.HmhPhoneNumber)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.HmhFullName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.HmhBirthday)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+
+    <tbody>
+        @if (Model != null)
+        {
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.HmhMemberId)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.HmhUserName)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.HmhPassword)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.HmhEmail)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.HmhPhoneNumber)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.HmhFullName)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.HmhBirthday)
+                    </td>
+                    <td>
+                        <a asp-action="Edit" asp-route-id="@item.HmhMemberId">Edit</a> |
+                        <a asp-action="Details" asp-route-id="@item.HmhMemberId">Details</a> |
+                        <a asp-action="Delete" asp-route-id="@item.HmhMemberId">Delete</a>
+                    </td>
+                </tr>
+            }
+        }
+    </tbody>
+</table>
