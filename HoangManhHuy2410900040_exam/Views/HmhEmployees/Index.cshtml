@@ -1,0 +1,296 @@
+﻿@model IEnumerable<HoangManhHuy2410900040_exam.Models.HmhEmployee>
+
+@{
+    ViewData["Title"] = "Quản lý nhân viên";
+}
+
+<link rel="stylesheet" href="~/css/employee.css" />
+
+<div class="employee-container">
+
+    <!-- Tiêu đề -->
+    <div class="page-header">
+        <div>
+            <h2>Quản lý nhân viên</h2>
+            <p>Danh sách thông tin nhân viên trong hệ thống</p>
+        </div>
+
+        <a asp-action="Create" class="btn btn-add">
+            <i class="bi bi-plus-circle"></i> Thêm nhân viên
+        </a>
+    </div>
+
+    <!-- Bảng nhân viên -->
+    <div class="employee-card">
+        <div class="table-responsive">
+            <table class="table employee-table">
+                <thead>
+                    <tr>
+                        <th>Họ và tên</th>
+                        <th>Giới tính</th>
+                        <th>Ngày sinh</th>
+                        <th>Email</th>
+                        <th>Số điện thoại</th>
+                        <th>Trạng thái</th>
+                        <th class="text-center">Thao tác</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <td class="employee-name">
+                                @item.HmhName
+                            </td>
+
+                            <td>@item.HmhGender</td>
+
+                            <td>
+                                @(item.HmhBirthDay.HasValue
+                                                            ? item.HmhBirthDay.Value.ToString("dd/MM/yyyy")
+                                                            : "")
+                        </td>
+
+                            <td>@item.HmhEmail</td>
+
+                            <td>@item.HmhPhone</td>
+
+                            <td>
+                            @if (item.HmhActive == "Đang hoạt động")
+                                {
+                                    <span class="status-badge active">
+                                        @item.HmhActive
+                                    </span>
+                                }
+                                else
+                                {
+                                    <span class="status-badge inactive">
+                                        @item.HmhActive
+                                    </span>
+                                }
+                            </td>
+
+                            <td class="text-center">
+                                <div class="action-buttons">
+                                    <a asp-action="Details"
+                                       asp-route-id="@item.Id"
+                                       class="btn-action btn-view"
+                                       title="Chi tiết">
+                                        <i class="bi bi-eye"></i>
+                                    </a>
+
+                                    <a asp-action="Edit"
+                                       asp-route-id="@item.Id"
+                                       class="btn-action btn-edit"
+                                       title="Sửa">
+                                        <i class="bi bi-pencil-square"></i>
+                                    </a>
+
+                                    <a asp-action="Delete"
+                                       asp-route-id="@item.Id"
+                                       class="btn-action btn-delete"
+                                       title="Xóa">
+                                        <i class="bi bi-trash"></i>
+                                    </a>
+                                </div>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+
+        <div class="table-footer">
+            Tổng số nhân viên:
+            <strong>@(Model?.Count() ?? 0)</strong>
+        </div>
+    </div>
+
+</div>
+<style>
+
+    /* Nền trang */
+    body {
+        background-color: #f4f7fc;
+        font-family: 'Segoe UI', Arial, sans-serif;
+    }
+
+    /* Khung chính */
+    .employee-container {
+        padding: 30px;
+        max-width: 1500px;
+        margin: 0 auto;
+    }
+
+    /* Tiêu đề */
+    .page-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 25px;
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+
+        .page-header h2 {
+            font-size: 28px;
+            font-weight: 700;
+            color: #1e293b;
+            margin-bottom: 8px;
+        }
+
+        .page-header p {
+            color: #64748b;
+            margin: 0;
+            font-size: 15px;
+        }
+
+    /* Nút thêm nhân viên */
+    .btn-add {
+        background: #2563eb;
+        color: white;
+        padding: 12px 20px;
+        border-radius: 8px;
+        font-weight: 600;
+        text-decoration: none;
+        transition: 0.3s;
+    }
+
+        .btn-add:hover {
+            background: #1d4ed8;
+            color: white;
+            transform: translateY(-2px);
+        }
+
+    /* Khung bảng */
+    .employee-card {
+        background: white;
+        border-radius: 12px;
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+        overflow: hidden;
+        border: 1px solid #e2e8f0;
+    }
+
+    /* Bảng */
+    .employee-table {
+        margin-bottom: 0;
+        min-width: 900px;
+    }
+
+        .employee-table thead {
+            background: #eff6ff;
+        }
+
+            .employee-table thead th {
+                color: #1e40af;
+                font-size: 14px;
+                font-weight: 700;
+                padding: 18px 15px;
+                border-bottom: 2px solid #dbeafe;
+                white-space: nowrap;
+            }
+
+        .employee-table tbody td {
+            padding: 17px 15px;
+            vertical-align: middle;
+            color: #475569;
+            font-size: 14px;
+            border-bottom: 1px solid #f1f5f9;
+        }
+
+        .employee-table tbody tr:hover {
+            background-color: #f8fafc;
+        }
+
+    .employee-name {
+        font-weight: 600;
+        color: #1e293b !important;
+    }
+
+    /* Trạng thái */
+    .status-badge {
+        display: inline-block;
+        padding: 6px 12px;
+        border-radius: 20px;
+        font-size: 12px;
+        font-weight: 600;
+        white-space: nowrap;
+    }
+
+        .status-badge.active {
+            color: #15803d;
+            background: #dcfce7;
+        }
+
+        .status-badge.inactive {
+            color: #b91c1c;
+            background: #fee2e2;
+        }
+
+    /* Các nút thao tác */
+    .action-buttons {
+        display: flex;
+        justify-content: center;
+        gap: 8px;
+    }
+
+    .btn-action {
+        width: 34px;
+        height: 34px;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 7px;
+        text-decoration: none;
+        transition: 0.2s;
+    }
+
+    .btn-view {
+        background: #dbeafe;
+        color: #2563eb;
+    }
+
+    .btn-edit {
+        background: #fef3c7;
+        color: #d97706;
+    }
+
+    .btn-delete {
+        background: #fee2e2;
+        color: #dc2626;
+    }
+
+    .btn-action:hover {
+        transform: scale(1.1);
+        color: white;
+    }
+
+    .btn-view:hover {
+        background: #2563eb;
+    }
+
+    .btn-edit:hover {
+        background: #d97706;
+    }
+
+    .btn-delete:hover {
+        background: #dc2626;
+    }
+
+    /* Chân bảng */
+    .table-footer {
+        padding: 18px 20px;
+        background: #f8fafc;
+        border-top: 1px solid #e2e8f0;
+        color: #64748b;
+        font-size: 14px;
+    }
+
+        .table-footer strong {
+            color: #2563eb;
+            font-size: 16px;
+        }
+
+   
+</style>
