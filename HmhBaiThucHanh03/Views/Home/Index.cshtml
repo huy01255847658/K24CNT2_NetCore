@@ -1,0 +1,27 @@
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<partial name="Banner" />
+<hr />
+
+<!-- Nút bấm -->
+<button id="loadAjax" class="btn btn-primary">Tất cả sách</button>
+<hr />
+
+<!-- Nội dung sẽ được load từ partial view vào đây -->
+<div id="data-from-ajax" class="row"></div>
+<hr />
+
+<h2>Sách nổi bật</h2>
+@await Component.InvokeAsync("Book")
+
+@section Scripts {
+    <script>
+        // gọi sự kiện click vào nút bấm có id ="loadAjax"
+        $('#loadAjax').click(function () {
+            // thông qua ajax load nội dung từ partial view vào id="data-from-ajax"
+            $('#data-from-ajax').load("/Book/PopularBook");
+        });
+    </script>
+}

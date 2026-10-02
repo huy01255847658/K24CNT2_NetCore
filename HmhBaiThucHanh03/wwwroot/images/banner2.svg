@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1140 380" width="1140" height="380">
+  <defs>
+    <linearGradient id="bg2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#311b92;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#512da8;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#7b1fa2;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="roseGold" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#fbcfe8;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f472b6;stop-opacity:1" />
+    </linearGradient>
+    <filter id="shadow2" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1140" height="380" fill="url(#bg2)"/>
+  <circle cx="150" cy="330" r="160" fill="#a855f7" opacity="0.12" />
+  <circle cx="980" cy="80" r="180" fill="#ec4899" opacity="0.1" />
+
+  <!-- Stack of Books Graphic on Left -->
+  <g transform="translate(130, 80)" filter="url(#shadow2)">
+    <!-- Book 1 (Bottom) -->
+    <rect x="20" y="170" width="220" height="42" rx="4" fill="#0284c7"/>
+    <rect x="235" y="174" width="8" height="34" rx="2" fill="#e2e8f0"/>
+    <text x="130" y="197" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="14" font-weight="bold" fill="#ffffff">ĐƯỜNG XƯA MÂY TRẮNG</text>
+
+    <!-- Book 2 (Middle) -->
+    <rect x="35" y="122" width="195" height="40" rx="4" fill="#16a34a"/>
+    <rect x="225" y="126" width="8" height="32" rx="2" fill="#e2e8f0"/>
+    <text x="132" y="148" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="14" font-weight="bold" fill="#ffffff">LÃO HẠC - NAM CAO</text>
+
+    <!-- Book 3 (Top) -->
+    <rect x="50" y="75" width="165" height="40" rx="4" fill="#ea580c"/>
+    <rect x="210" y="79" width="8" height="32" rx="2" fill="#e2e8f0"/>
+    <text x="132" y="101" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="14" font-weight="bold" fill="#ffffff">CHÍ PHÈO</text>
+
+    <!-- Coffee cup on top -->
+    <g transform="translate(100, 10)">
+      <path d="M 15,35 L 20,60 Q 32,65 44,60 L 49,35 Z" fill="#f8fafc"/>
+      <path d="M 47,40 Q 56,40 56,47 Q 56,54 46,55" fill="none" stroke="#f8fafc" stroke-width="3"/>
+      <!-- Steam -->
+      <path d="M 27,28 Q 23,20 28,15" fill="none" stroke="#fed7aa" stroke-width="2"/>
+      <path d="M 37,28 Q 41,20 36,15" fill="none" stroke="#fed7aa" stroke-width="2"/>
+    </g>
+  </g>
+
+  <!-- Tag badge -->
+  <rect x="500" y="65" width="230" height="38" rx="19" fill="#ec4899" filter="url(#shadow2)"/>
+  <text x="615" y="89" text-anchor="middle" font-family="'Segoe UI', Roboto, sans-serif" font-size="16" font-weight="bold" fill="#ffffff">📖 VĂN HỌC VIỆT NAM</text>
+
+  <!-- Main Headline -->
+  <text x="500" y="155" font-family="'Segoe UI', Roboto, sans-serif" font-size="42" font-weight="900" fill="#ffffff" filter="url(#shadow2)">TUYỆT TÁC KINH ĐIỂN</text>
+
+  <!-- Promotion Subtitle -->
+  <text x="500" y="200" font-family="'Segoe UI', Roboto, sans-serif" font-size="22" font-weight="bold" fill="url(#roseGold)">SÁCH VĂN HỌC &amp; NGHỆ THUẬT SỐNG</text>
+
+  <!-- Description -->
+  <text x="500" y="240" font-family="'Segoe UI', Roboto, sans-serif" font-size="16" fill="#e9d5ff">Đắm chìm vào từng trang sách kinh điển nuôi dưỡng tâm hồn bạn.</text>
+
+  <!-- CTA Button Graphic -->
+  <g transform="translate(500, 270)">
+    <rect width="210" height="48" rx="24" fill="#fbbf24"/>
+    <text x="105" y="30" text-anchor="middle" font-family="'Segoe UI', Roboto, sans-serif" font-size="17" font-weight="bold" fill="#311b92">XEM BỘ SƯU TẬP →</text>
+  </g>
+</svg>
